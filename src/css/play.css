@@ -1,0 +1,75 @@
+.play {
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-top: 3.125rem;
+    flex-direction: column;
+}
+
+.triangle {
+    position: absolute;
+    align-self: center;
+    margin-top: 4.375rem;
+    width: 30rem;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.icon {
+    height: 10rem;
+    width: 10rem;
+    border: 18px solid;
+    border-radius: 50%;
+    transition: transform 0.2s;
+
+}
+
+.play .icon-paper {
+    background-color: #fff;
+    background-image: url("../images/icon-paper.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-color: hsl(230, 89%, 62%);
+    transform: translateX(-2rem);
+    box-shadow: inset 0px 5px 2px grey , 0 8px  hsl(230, 89%, 62%); ;
+  
+}
+
+.play .icon-paper:hover {
+    transform: translateX(-2rem) scale(1.1);
+}
+
+.play .icon-scissors {
+    background-color : #fff;
+    background-image: url("../images/icon-scissors.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-color: hsl(39, 89%, 49%);
+    transform: translateX(13rem);
+    box-shadow:  inset 0px 5px 2px grey, 0 8px   hsl(39, 89%, 49%); ;
+   
+}
+
+.play .icon-scissors:hover {
+    transform: translateX(15rem) scale(1.1);
+}
+
+.play .icon-rock {
+    background-color: #fff;
+    background-image: url("../images/icon-rock.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-color:  hsl(349, 71%, 52%);
+    transform: translateX(-10rem) translateY(22rem);
+    box-shadow: inset 0px 5px 2px grey, 0 8px hsl(349, 71%, 52%);
+  
+  
+}
+
+.play .icon-rock:hover {
+    transform:  translateX(-10rem) translateY(22rem) scale(1.1);
+}
