@@ -2,8 +2,6 @@ import React from "react";
 import Header from "./components/Header"
 import Play from "./components/Play";
 import Game from "./components/Game";
-/* The modal component below was not used maybe that could be the cause of our error */
-import Modal from "./components/Modal";
 import Footer from "./components/Footer";
 import { Switch, Route } from "react-router-dom";
 
